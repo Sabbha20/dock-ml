@@ -104,3 +104,5 @@ coverage.xml
 *.spec
 .jupyter/
 .local/
+.ipython/
+.keras/
