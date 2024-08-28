@@ -1,0 +1,104 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment files
+*env/
+venv/
+.venv/
+ENV/
+.ipynb_checkpoints/
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+*.nbconvert/
+
+# Data files
+*.csv
+*.tsv
+*.data
+*.dat
+*.h5
+*.hdf5
+
+# TensorFlow Checkpoints
+checkpoint
+*.ckpt
+*.ckpt.data-*
+*.ckpt.index
+
+# TensorBoard log files
+logs/
+events.out.tfevents.*
+
+# Models
+*.h5
+*.pb
+*.onnx
+*.joblib
+*.pkl
+
+# Compiled C extensions
+*.so
+
+# Temporary files
+*.bak
+*.swp
+
+# VSCode Settings
+.vscode/
+*.code-workspace
+
+# Docker files (if working in a Docker container)
+*.pid
+*.log
+
+# IDE-specific files
+.idea/
+.project
+.classpath
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# MacOS files
+.DS_Store
+
+# Output folders for Sphinx documentation
+docs/_build/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
